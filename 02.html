@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>오리지마랩스 | 카톡에서 바로 쓰는 AI</title>
+  <meta name="description" content="오리지마랩스 — 카카오톡에서 바로 쓰는 AI 유틸리티. 오리지마 AI 플래너(일정) 등 제품 채널로 이동하세요.">
+  <link rel="stylesheet" href="/assets/style.css">
+  <style>
+  /* Responsive enhancements (mobile-first) */
+  :root{--maxw:1120px;--gap:16px}
+  .container{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+  .hero{padding:72px 0 56px}
+  .hero .wrap{display:grid;gap:24px;grid-template-columns:1fr;align-items:center}
+  .hero h1{font-size:clamp(1.8rem,2.2vw+1rem,3rem);margin:0 0 .5rem;line-height:1.2}
+  .hero p{color:#555;margin:0 0 1rem;font-size:clamp(1rem,.4vw+.9rem,1.125rem)}
+  .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .btn{display:inline-block;padding:.8rem 1rem;border-radius:12px;border:1px solid #ddd;text-decoration:none}
+  .btn.primary{background:#111;color:#fff;border-color:#111}
+  .btn.kakao{background:#fee500;color:#111;border-color:#e9d100}
+  .grid{display:grid;gap:16px;grid-template-columns:1fr}
+  .card{border:1px solid #eee;border-radius:14px;padding:18px}
+  .card h3{margin-top:0}
+  .muted{color:#666}
+  header.nav{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+  header.nav a{text-decoration:none;margin-left:12px}
+  .hero .art{border-radius:16px;min-height:220px;border:1px solid #e5e7eb;background:
+    radial-gradient(60% 80% at 40% 20%, #f3f4f6, #e5e7eb),
+    linear-gradient(135deg,#e0f2fe,#f0f9ff)}
+  table.table{width:100%;border-collapse:collapse}
+  table.table th,table.table td{padding:.6rem .5rem;border-top:1px solid #eee;text-align:left}
+  @media (max-width:640px){table.table{display:block;overflow-x:auto;white-space:nowrap}}
+  @media (min-width:768px){
+    .grid{grid-template-columns:repeat(2,1fr)}
+    .hero{padding:96px 0 72px}
+    .hero .art{min-height:280px}
+  }
+  @media (min-width:1024px){
+    .hero .wrap{grid-template-columns:1.2fr 1fr}
+    header.nav{position:sticky;top:0;background:#fff;z-index:10;border-bottom:1px solid #f2f2f2}
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <!-- 상단 네비게이션 -->
+  <header class="nav">
+    <div><strong>Orijima Labs</strong></div>
+    <nav>
+      <a href="#services">서비스</a>
+      <a href="#pricing">요금</a>
+      <a href="/terms_ko.html">이용약관</a>
+      <a href="/privacy_ko.html">개인정보처리방침</a>
+    </nav>
+  </header>
+
+  <!-- 히어로 -->
+  <section class="hero">
+  <div class="wrap">
+    <div class="copy">
+      <h1>카톡에서 바로 쓰는 AI 유틸리티</h1>
+      <p class="muted">채팅 한 줄로 일정·기억을 처리하세요. 채널만 추가하면 바로 동작합니다.</p>
+      <div class="cta">
+        <a class="btn kakao" href="https://pf.kakao.com/_IMGxmn" target="_blank" rel="noopener">오리지마랩스 채널</a>
+        <a class="btn primary" href="#services">제품 채널 보기</a>
+      </div>
+    </div>
+    <div class="art" aria-hidden="true"></div>
+  </div>
+</section>
+
+  <!-- 제품 섹션 -->
+  <section id="services" class="card">
+    <h2>제품 채널</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>오리지마 AI 플래너</h3>
+        <p class="muted">말·텍스트로 일정 등록·수정·읽기. 톡캘린더 연동.</p>
+        <div class="cta">
+          <a class="btn primary" href="https://pf.kakao.com/_qzWxmn" target="_blank" rel="noopener">카카오 채널로 이동</a>
+          <a class="btn" href="/terms_ko.html#annex-a">기능 안내</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>오리지마 기억서랍 <small class="muted">(준비중)</small></h3>
+        <p class="muted">개인 메모/키워드 저장·검색. 출시 알림은 랩스 채널에서 받아보세요.</p>
+        <div class="cta">
+          <a class="btn" href="https://pf.kakao.com/_IMGxmn" target="_blank" rel="noopener">알림 받기</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 요금 -->
+  <section id="pricing" class="card">
+    <h2>요금(요약)</h2>
+    <ul>
+      <li><strong>월 7,900원(VAT 포함)</strong>, 해지 전까지 동일 주기로 자동 결제</li>
+      <li>해지: 채팅 내 <em>내 구독/해지</em>에서 즉시 가능(다음 결제일부터 중단)</li>
+      <li>환불: 결제 7일 이내 미사용 전액 / 사용분 공제 부분환불(자세한 내용은 약관 5조)</li>
+    </ul>
+    <div class="cta">
+      <a class="btn" href="/auto_billing_notice.txt" target="_blank" rel="noopener">자동결제 고지</a>
+      <a class="btn" href="/terms_ko.html">이용약관 전문</a>
+    </div>
+  </section>
+
+  <!-- FAQ 간단 고지 -->
+  <section class="card">
+    <h2>자주 묻는 질문(요약)</h2>
+    <details>
+      <summary>카톡에서 바로 동작하나요?</summary>
+      <p>네. 카카오톡 채널을 추가하면 대화창에서 곧바로 사용할 수 있습니다.</p>
+    </details>
+    <details>
+      <summary>일정은 어디에 저장되나요?</summary>
+      <p>사용자 동의 후 톡캘린더의 전용 서브캘린더에 저장됩니다.</p>
+    </details>
+    <details>
+      <summary>음성 입력/출력은 지원하나요?</summary>
+      <p>음성 입력은 보이스봇/키보드 음성 기능을 통해 지원 예정이며, 텍스트 입력은 즉시 사용 가능합니다.</p>
+    </details>
+  </section>
+
+  <!-- 푸터/사업자 표기 -->
+  <footer class="card">
+    <h2 class="muted">사업자 정보</h2>
+    <div class="biz">
+      상호: 오리지마랩스 (대표: 박세환) · 사업자등록번호: 814-61-00716<br>
+      주소: 대한민국, 인천광역시 남동구 남동서로236번길 30, 222-J441호(논현동, 논현2차 푸르지오시티)<br>
+      고객센터: <a href="mailto:orijima.labs@gmail.com">orijima.labs@gmail.com</a><br>
+      <small>© 2025 Orijima Labs. All rights reserved.</small>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
